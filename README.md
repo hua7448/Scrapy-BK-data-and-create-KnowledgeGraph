@@ -39,26 +39,19 @@
 3、运行爬虫文件
 ![MISS](./imgs/start_spider.png)
 ```
-cd WEB_KG/baike
 scrapy crawl baike
 ```
+4、执行界面(按ctrl+c停止)：
+![MISS](./imgs/run_spider.png)
 
-执行界面(按ctrl+c停止)：
-![](./imgs/kg5.png)
+5、运行过程还是有一些Bug，我看了下是由于编码问题造成的，但是不影响程序继续抓取数据，后续有时间再修复
+![MISS](./imgs/spider_bug.png)
+
 
 ### 知识图谱效果图
 
 ![](./imgs/kg.png)
 
-### mongodb存储的网页内容
 
-![](./imgs/kg3.png)
 
-### mongodb存储的三元组
-
-![](./imgs/kg4.png)
-
-### neo4j后台界面
-
-![](./imgs/kg2.png)
 
