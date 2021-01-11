@@ -8,16 +8,11 @@
 
 
 前言：本项目是在Windows上面部署
+
 需要安装MongoDB并且配置为win服务，参考[链接]https://www.cnblogs.com/billyzh/p/5913687.html
-![](./imgs/MongoDB.png)
+![MISS](./imgs/MongoDB.png)
 
 安装Neo4j社区版，参考[链接]https://www.cnblogs.com/ljhdo/archive/2017/05/19/5521577.html
-
-
-##### Tips
-
-- 如果是项目问题，请提issue。
-- 如果涉及到不方便公开的，请发邮件。
 
 ### 环境
 
@@ -33,7 +28,16 @@
 
 
 ### 代码执行：
+1、启动MongoDB服务
+![MISS](./imgs/start_mongo.png)
 
+2、启动Neo4j，账户密码和代码中保持一致即可
+![MISS](./imgs/start_neo4j.png)
+
+![MISS](./imgs/neo4j_browser.png)
+
+3、运行爬虫文件
+![MISS](./imgs/start_spider.png)
 ```
 cd WEB_KG/baike
 scrapy crawl baike
