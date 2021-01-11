@@ -121,8 +121,7 @@ class BaikeSpider(scrapy.Spider):
                 # else:
                 #     print("Pass")
             
-            #  怀疑，是MERGE的时候由于编码报错，后续的都不存入Neo4j了
-            #  求证：除非是特别特殊的外国语言，否则有一些\xa0都能存进去  排除
+
             
             except Exception:
                 logging.error('\n---'.join(attrs) +
