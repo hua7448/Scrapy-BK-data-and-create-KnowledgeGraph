@@ -87,10 +87,6 @@ class BaikeSpider(scrapy.Spider):
             return
         with self.driver.session() as session:
             try:
-                # print('entity:\n',entity)
-                # print('attrs:\n',attrs)
-                # print('values:\n',values)
-                # if attrs != [] and values != []:
                 for attr, value in zip(attrs, values):
                     # attr
                     temp = Selector(text=attr).xpath(
@@ -112,17 +108,10 @@ class BaikeSpider(scrapy.Spider):
 
                     except pymongo.errors.DuplicateKeyError:
                         pass
-                    # print(entity)
-                    # print(attr)
-                    # print(value)
+
                     session.write_transaction(
                         self.add_node, entity, attr, value)
                         
-                # else:
-                #     print("Pass")
-            
-
-            
             except Exception:
                 logging.error('\n---'.join(attrs) +
                               '\n_________________'+'\n---'.join(values))
