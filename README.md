@@ -9,14 +9,16 @@
 
 前言：本项目是在Windows上面部署
 
-需要安装MongoDB并且配置为win服务，参考[点我吧](https://www.cnblogs.com/billyzh/p/5913687.html)
-还有一些安装时小坑我也放在文档里面，参考[点我吧](https://github.com/hua7448/Spider-BK-data-and-create-KnowledgeGraph/blob/master/MongoDB%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95.docx)
+
+### 环境
+
+- 需要安装MongoDB并且配置为win服务，参考[点我吧](https://www.cnblogs.com/billyzh/p/5913687.html)
+
+-还有一些安装时小坑我也放在文档里面，参考[点我吧](https://github.com/hua7448/Spider-BK-data-and-create-KnowledgeGraph/blob/master/MongoDB%E5%AE%89%E8%A3%85%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95.docx)
 
 ![MISS](./imgs/MongoDB_install.png)
 
-安装Neo4j社区版，参考[点我吧](https://www.cnblogs.com/ljhdo/archive/2017/05/19/5521577.html)
-
-### 环境
+-安装Neo4j社区版，参考[点我吧](https://www.cnblogs.com/ljhdo/archive/2017/05/19/5521577.html)
 
 - python 3.7.9
 - re:url正则匹配
