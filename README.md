@@ -1,4 +1,4 @@
-# 特别感谢原项目作者：[链接]https://github.com/lixiang0/WEB_KG
+### 特别感谢原项目作者：[链接]https://github.com/lixiang0/WEB_KG
 
 # 开源web知识图谱项目
 
@@ -6,9 +6,12 @@
 - 解析三元组和网页内容
 - 构建中文知识图谱
 
-本项目是在Windows上面部署
-需要安装MongoDB并且配置为服务
-安装Neo4j社区办
+
+前言：本项目是在Windows上面部署
+需要安装MongoDB并且配置为win服务，参考[链接]https://www.cnblogs.com/billyzh/p/5913687.html
+![](./imgs/MongoDB.png)
+
+安装Neo4j社区版，参考[链接]https://www.cnblogs.com/ljhdo/archive/2017/05/19/5521577.html
 
 
 ##### Tips
