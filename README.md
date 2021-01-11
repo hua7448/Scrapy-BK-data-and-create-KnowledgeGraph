@@ -5,9 +5,10 @@
 - 构建中文知识图谱
 - 构建百科bot（构建中）
 
-##### update 20200720
+##### update 20210111
+特别感谢原项目作者：https://github.com/lixiang0/WEB_KG
+本项目会指出一些虽小但是很恼人的Bug
 
-Windows上的部署参考[如何在Windows上部署](https://github.com/lixiang0/WEB_KG/issues/20)，感谢LMY-nlp0701！
 
 ##### update 20191121
 
