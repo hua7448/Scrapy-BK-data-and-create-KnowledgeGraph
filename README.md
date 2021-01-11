@@ -24,7 +24,7 @@ PS：还有一些安装时小坑我也放在文档里面，参考[点我吧](htt
 - re:url正则匹配
 - scrapy:网页爬虫和网页解析    pip install scrapy
 - pip install pymongodb：mongodb的python支持
-- mongodb数据库：安装参考[点我吧](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+- mongodb数据库：安装参考[点我吧](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)[点我吧](https://blog.csdn.net/heshushun/article/details/77776706)
 - neo4j:知识图谱图数据库,安装可以参考[点我吧](http://blog.rubenxiao.com/posts/install-neo4j.html)
 - pip install neo4j：neo4j python驱动参考：[点我吧](https://github.com/neo4j/neo4j-python-driver)
 PS：原作者用的是from neo4j.v1 import GraphDatabase
