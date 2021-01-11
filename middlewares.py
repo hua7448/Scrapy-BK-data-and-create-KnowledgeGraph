@@ -93,7 +93,9 @@ class WebKgDownloaderMiddleware(object):
         # Called when a download handler or a process_request()
         # (from other downloader middleware) raises an exception.
 
+
         # Must either:
+        
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
