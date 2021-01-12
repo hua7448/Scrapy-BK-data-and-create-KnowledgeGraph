@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import logging
+import logging#  日志
 import urllib
 import os
-import glob
+# import glob
 import re
 import pymongo
 from scrapy.selector import Selector
-# from neo4j.v1 import GraphDatabase
+# from neo4j.v1 import GraphDatabase#  原作者用的版本
 from neo4j import GraphDatabase#  用新版的
-import logging
 import time
+
 
 #  创建日志文件
 logfile_name = time.ctime(time.time()).replace(' ', '_')
